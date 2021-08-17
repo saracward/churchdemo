@@ -1,0 +1,41 @@
+.landing-container {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://i.ibb.co/d215HTY/matt-botsford-b-BNab-N9-R-ac-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  color: white;
+}
+.bannerCaption {
+  color: white;
+}
+
+.aboutContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 20px;
+  height: 600px;
+}
+
+.locationContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: purple;
+  color: white;
+  height: 600px;
+}
